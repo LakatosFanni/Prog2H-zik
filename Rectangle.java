@@ -32,7 +32,7 @@ public class Rectangle {
 
     @Override
     public String toString() {
-        return "A háromszög: \n{" + "szélessége= " + width + ",\n magassága= " + height + '}';
+        return "A téglalap: \n{" + "szélessége= " + width + ",\n magassága= " + height + '}';
     }
    
    

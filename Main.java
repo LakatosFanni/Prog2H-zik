@@ -20,11 +20,11 @@ public class Main {
             int orakSzama;
             
             System.out.print("Nap: ");
-            nap = sc.next();//beolvassuk és eltároljuk
+            nap = sc.next();
             
             
             System.out.print("Hány óra: ");
-            orakSzama = sc.nextInt();//nextInt mert számról van szóhét
+            orakSzama = sc.nextInt();
             
             int szamlalo=0;
             Ora[] orak = new Ora[12];
@@ -46,7 +46,7 @@ public class Main {
           Orarend orarend = new Orarend(nap);
           for(int j=0;j<orak.length;j++){
               if(orak[j] == null){
-                  continue;//azért kell mert ha nincs óra,akkor megyünk tovább
+                  continue;
               }
               if(orarend.oratHozzaad(orak[j])){
                   System.out.println("Sikeres hozzáadás");

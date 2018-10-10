@@ -18,9 +18,7 @@ public class Teherautó extends Autó {
         super(rendszám, motorTeljesítmény);
         this.maxSzállíthatóTeher=maxSzállíthatóTeher;
     } 
-    public Teherautó (int maxSzállíthatóteher){
-        this.maxSzállíthatóTeher=maxSzállíthatóTeher;
-    }
+    
 
     public int getMaxSzállíthatóTeher() {
         return maxSzállíthatóTeher;
